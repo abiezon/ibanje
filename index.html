@@ -16,20 +16,38 @@
 
   <!-- estilos css -->
   <link rel="stylesheet" href="css/estilo.css">
-  <title>IBANJE- céu na terra</title>
+  <title>IBANJE - Céu na Terra</title>
+  <link rel="icon" href="imagens/favicon.png">
 </head>
 <body>
   <header><!--inicio header-->
-    <nav><!--inicio nav-->
-      <div><!--inicio container nav-->
+    <nav class="navbar navbar-expand-md navbar-light fixed-top bg-dark"><!--inicio nav-->
+      <div class="container"><!--inicio container nav-->
+        <a href="index.html" class="navbar-brand">
+          <img src="imagens/IBANJE_tamnhonovo.svg" width="142">
+         </a>
 
+         <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-principal">
+          <i class="fa-solid fa-bars text-white"></i>
+         </button>
 
-        <p>oii</p>
+         <div class="collapse navbar-collapse" id="nav-principal"><!--inicio itens menu-->
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a href="identidade.html" class="nav-link">Identidade</a>
+            </li>
+            <li class="nav-item">
+              <a href="ministerios.html" class="nav-link">Mistérios</a>
+            </li>
+            <li class="nav-item">
+              <a href="programacoes.html" class="nav-link">Programações</a>
+            </li>
+            <li class="nav-item">
+              <a href="contato.html" class="nav-link">Contato</a>
+            </li>
+          </ul>
+         </div><!-- final itens menu-->
         
-
-
-
-
       </div><!--final container nav-->
     </nav><!--final nav-->
   </header><!--final header-->
