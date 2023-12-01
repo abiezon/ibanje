@@ -1,0 +1,19 @@
+/*
+Barra de navegação
+*/
+nav.black{
+  background-color: black;
+}
+nav.branco{
+  color:white;
+}
+.navbar-light .navbar-nav .nav-link{
+  color: white;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+  color: #008eaa;
+}
+.navbar-light .navbar-toggler{
+  color: white;
+  border-color: whitesmoke;
+}
