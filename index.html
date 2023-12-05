@@ -52,7 +52,50 @@
     </nav><!--final nav-->
   </header><!--final header-->
 
-  <section class="caixa borda"><!--   inicio seção home-->
+  <section class="topo d-flex"><!-- inicio section -->
+    <div class="container"><!-- inicio container -->
+      <div class="row"><!-- inicio row -->
+        <div class="col-sm-8 m-auto"><!-- inicio col-md -->
+          <div id="carousel-indicadores" class="carousel slide" data-ride="carousel"><!-- inicio carousel -->
+
+            <ol class="carousel-indicators"><!-- inicio indicadores -->
+              <li class="active" data-target="#carousel-indicadores" data-slide-to="0"></li>
+              <li data-target="#carousel-indicadores" data-slide-to="1"></li>
+              <li data-target="#carousel-indicadores" data-slide-to="2"></li>
+            </ol><!-- Final indicadores -->
+        
+            <div class="carousel-inner"><!-- inicio inner-->
+              <div class="carousel-item active">
+                <img src="imagens/slide01.png" alt="" class="img-fluid redondo-slide">
+              </div>
+        
+              <div class="carousel-item">
+                <img src="imagens/slide02.png" alt="" class="img-fluid redondo-slide">
+              </div>
+        
+              <div class="carousel-item">
+                <img src="imagens/slide03.png" alt="" class="img-fluid redondo-slide">
+              </div>
+        
+            </div><!-- final inner -->
+        
+             <!-- Controles -->
+             <a href="#carousel-indicadores" class="carousel-control-prev" data-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </a>
+        
+            <a href="#carousel-indicadores" class="carousel-control-next" data-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </a>
+        
+          </div><!-- final carousel -->
+        </div><!-- final col-md -->
+      </div><!-- final row-->
+    </div><!-- final container -->
+  </section><!--final section-->
+
+
+  <section class="caixa"><!--   inicio seção home-->
     <div class="container"><!--   inicio container-->
       <div class="row"><!--row-->
         <div class="col-md-6 d-flex"><!-- inicio texto seção home -->
@@ -63,8 +106,8 @@
 
           </div><!-- Final conteudo -->
         </div><!-- final texto seção home -->
-        <div class="col-md-6 d-none d-md-block  ">
-          <img src="imagens/familia.jpeg" alt="" width="500"  class="direita-redondo">
+        <div class="col-md-6 d-none d-md-block">
+          <img src="imagens/familia.jpeg" alt="" width="500"  class="redondo">
         </div>
       </div><!--row-->
     </div><!--   final container-->

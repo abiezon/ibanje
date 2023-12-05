@@ -23,9 +23,18 @@ conteudos
 .caixa{
   padding: 60px 0;
 }
-.direita-redondo{
+.redondo{
   border-radius: 10%;
 }
+
+.redondo-slide{
+  border-radius: 1%;
+}
+
 .borda{
   border: 1px solid red;
+}
+
+.topo{
+  padding-top: 150px;
 }
