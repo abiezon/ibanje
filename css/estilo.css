@@ -17,3 +17,15 @@ nav.branco{
   color: white;
   border-color: whitesmoke;
 }
+/*
+conteudos
+*/
+.caixa{
+  padding: 60px 0;
+}
+.direita-redondo{
+  border-radius: 10%;
+}
+.borda{
+  border: 1px solid red;
+}
