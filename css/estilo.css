@@ -26,15 +26,25 @@ conteudos
 .redondo{
   border-radius: 10%;
 }
+/*Formatação slide*/
 
-.redondo-slide{
-  border-radius: 1%;
-}
 
 .borda{
   border: 1px solid red;
 }
 
 .topo{
-  padding-top: 150px;
+  padding-top: 111px;
+}
+
+#carousel-indicadores{
+  height: 100%;
+}
+
+.carousel-inner {
+  height: 100%;
+}
+
+.carousel-item {
+  height: 100%;
 }
