@@ -1,7 +1,6 @@
 body{
-  overflow-x: hidden;
+ overflow-x: hidden;
 }
-
 
 /*
 Barra de navegação
@@ -52,6 +51,7 @@ conteudos
 
 .carousel-item {
   height: 100%;
+  /*width: auto;*/
 }
 /*
 Programações
