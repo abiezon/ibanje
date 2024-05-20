@@ -127,7 +127,15 @@ footer ul li{
 
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) { 
-  
+  .smalldv{
+    width: 300px;
+  }
+  .removeSmall{
+    display: none;
+   }
+   .ptSmall {
+    padding-top: .25rem !important;
+    }
  }
 
 /* Small devices (landscape phones, 576px and up)*/
