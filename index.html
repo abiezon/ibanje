@@ -53,10 +53,10 @@
   </header><!--final header-->
 
   <section class="topo d-flex "><!-- inicio section -->
-    <div class=""><!-- inicio container -->
-      <div class="row"><!-- inicio row -->
-        <div class="col-sm-12 m-auto"><!-- inicio col-md -->
-        <div class="col-sm-12 m-auto"><!-- inicio col-md -->
+    <div class="container-fluid px-0"><!-- inicio container -->
+      <div class="row no-gutters"><!-- inicio row -->
+        <div class="col-sm-12"><!-- inicio col-md -->
+        
           <div id="carousel-indicadores" class="carousel slide" data-ride="carousel"><!-- inicio carousel -->
 
             <ol class="carousel-indicators"><!-- inicio indicadores -->
@@ -86,9 +86,7 @@
         
           </div><!-- final carousel -->
         </div><!-- final col-md -->
-        </div><!-- final col-md -->
       </div><!-- final row-->
-    </div><!-- final container -->
     </div><!-- final container -->
   </section><!--final section-->
 
@@ -133,44 +131,21 @@
  
   <!-- a ideia é usar essa configuração para adicionar outras programações-->
   <section>
-    <div class="container"><!-- inicio do container programações-->
-      <div class="row"><!-- inicio row programações-->
-        <div class="d-flex"><!--inicio d-flex -->
-
-          <div class="col-md-3 float-left "><!-- inicio imagem -->
-              <img class="mr- align-self-start img-fluid redondo imgProg" src="imagens/CultoJovem.png" >
-          </div><!-- final imagem -->
-
-          <div class="mr- pt-4 col-md-2 float-left"><!-- inicio data -->
-              <h3 class="azul">31 Dez e<br> 01 Jan</h3>
-          </div><!-- final data -->
-
-          <div class="media-body pt-4 col-md-7  float-left ptSmall"> <!-- inicio informações e botão saiba mais -->
-              <h5>Culto de Jovens Igrja Batista Nova Jerusalém</h5>
-              <i class="far fa-calendar float-left align-self-center mr- azul"></i>
-              <h5 class="align-self-center azul">01/06 as 19:00 até 22:30</h5>
-              <a href="#" class="btn btn-success btn-lg">Mais informações</a>
-          </div><!-- final informações e botão saiba mais -->
-
-        </div><!--final d-flex -->
-      </div><!-- final row programações-->
-      <hr>
-    </div><!-- final do container programações-->
 
     <div class="container"><!-- inicio do container programações-->
       <div class="row"><!-- inicio row programações-->
         <div class="d-flex"><!--inicio d-flex -->
 
           <div class="col-md-3 float-left "><!-- inicio imagem -->
-              <img class="mr- align-self-start img-fluid redondo imgProg" src="imagens/ascensao.png" >
+              <img class="mr- align-self-start img-fluid redondo imgProg" src="imagens/ASCENSAO4.png" >
           </div><!-- final imagem -->
 
           <div class="mr- pt-4 col-md-2 float-left removeSmall"><!-- inicio data -->
-              <h3 class="azul">22 de Jun<br></h3>
+              <h3 class="azul">20 de Jul<br></h3>
           </div><!-- final data -->
 
           <div class="media-body pt-4 col-md-7  float-left ptSmall"> <!-- inicio informações e botão saiba mais -->
-              <h5>Culto da ASCENSÃO Igreja Batista Memorial</h5>
+              <h5>Culto da ASCENSÃO Primeira Igreja Batista</h5>
               <i class="far fa-calendar float-left align-self-center mr- azul"></i>
               <h5 class="align-self-center azul">22/06 as 18:30 até 22:00</h5>
               <a href="#" class="btn btn-success btn-lg">Mais informações</a>
@@ -185,11 +160,12 @@
  
   <footer><!--inicio rodapé-->
     <div class="container"><!--inicio container rodapé-->
-      <div class="row"><!--inicio row rodapé-->
+      <div class="row d-flex"><!--inicio row rodapé-->
 
-        <div class="col-md-2"><!-- inicio imagem rodapé-->
+        <div class="col-md-2 col-sm-2"><!-- inicio imagem rodapé-->
           <img src="imagens/IBANJE_tamnhonovo.svg" alt="" width="142">
         </div><!-- final imagem rodapé-->
+      
 
         <div class="col-md-2"><!-- inicio identidade rodapé-->
           <ul class="navbar-nav">
@@ -204,13 +180,13 @@
             <li>
               <h4><a href="ministerios.html">Ministérios</a></h4>
             </li>
-            <li>
+            <li class="removeSmall">
               <a href="#">PGM's</a>
             </li>
-            <li>
+            <li class="removeSmall">
               <a href="#">Juventude</a>
             </li>
-            <li>
+            <li class="removeSmall">
               <a href="#">EBD</a>
             </li>
           </ul><!-- final lista de ministérios-->
@@ -221,10 +197,10 @@
             <li>
              <h4><a href="programacoes.html">Programações</a></h4>
             </li>
-            <li>
+            <li class="removeSmall">
               <a href="#">Cultos</a>
             </li>
-            <li>
+            <li class="removeSmall">
               <a href="#">Eventos</a>
             </li>
           </ul><!-- final lista de programações -->
@@ -234,17 +210,18 @@
           <ul class="navbar-nav"><!-- inicio lista de contato -->
             <li>
               <h4><a href="contato.html">Contato</a></h4>
-            <li>
+            <li class="removeSmall">
               <a href="#">WhatsAap</a>
             </li>
-            <li>
+            <li class="removeSmall">
               <a href="#">E-mail</a>
             </li>
           </ul><!-- final lista de contato-->
         </div><!-- final contato rodapé-->
+      
 
 
-        <div class="col-md-2 align-self-center"><!-- inicio redes sociais rodapé-->
+        <div class="col-md-2 col-xs-8"><!-- inicio redes sociais rodapé-->
           <ul>
             <li>
               <a href="https://www.facebook.com/pages/Igreja-Batista-Nova-Jerusalém/204045426301863">
@@ -254,11 +231,6 @@
             <li>
               <a href="https://www.instagram.com/ibanje.cg/">
                 <i class="fa-brands fa-instagram display-personalizado text-white"></i>
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                <i class="fa-solid fa-newspaper display-personalizado text-white"></i>
               </a>
             </li>
           </ul>
