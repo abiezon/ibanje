@@ -34,7 +34,7 @@ conteudos
 
 
 .borda{
-  border: 1px solid red;
+  border: 2px solid #000;
 }
 
 .topo{
@@ -69,6 +69,13 @@ h4{
   font-size: 1.1;
 }
 
+h3{
+  color: #fff;
+  font-size: 1.1;
+}
+.azulo{
+  color: #008eaa;
+}
 .detalhes a{
   color: #052250;
 }
@@ -127,6 +134,27 @@ footer ul{
 footer ul li{
   float: right;
   margin: 0px 5px;
+}
+
+/*
+indentidade
+*/
+.cinza{
+  color: #1C1C1C;
+}
+.container_info{
+  border: 1px solid #000;
+
+}
+.bg-ibanje{
+  background-image: url('..//imagens/info.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.imagensInfo{
+  padding: 10px 0;
 }
 
 /* Extra small devices (portrait phones, less than 576px) */
